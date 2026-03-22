@@ -1,0 +1,323 @@
+\ifdefined\hasfigures
+\else
+\usepackage{tikz}
+\usetikzlibrary{3d,arrows,shapes,calc,positioning}
+\usepackage{graphicx}
+\fi
+
+\section*{Figures}
+\label{sec:figures}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \draw[thick] (0,0) circle [radius=2];
+    \draw[thick, dashed] (0,0) circle [radius=1.5];
+    
+    \draw[->, thick] (0,0) -- (0,2) node[above] {$|0\rangle$};
+    \draw[->, thick] (0,0) -- (1.414,1.414) node[right] {$(\theta,\phi)$};
+    \draw[->, thick] (0,0) -- (0,-2) node[below] {$|1\rangle$};
+    
+    \draw[->, thick] (0,0) -- (2,0) node[right] {$x$};
+    \draw[->, thick] (0,0) -- (0,2) node[above] {$y$};
+    \draw[->, thick] (-2,0) -- (2,0);
+    \draw[->, thick] (0,-2) -- (0,2);
+    
+    \draw[dotted] (0,0) -- (1.1,1.1);
+    \draw[dashed] (1.1,1.1) -- (1.1,0);
+    \draw[dashed] (1.1,1.1) -- (0,1.1);
+    
+    \node at (0.6,0.3) {$\theta$};
+    \node at (1.3,0.9) {$\phi$};
+    
+    \draw[->, thick, blue] (1.5,1) arc (30:60:1.8);
+\end{tikzpicture}
+\caption{Bloch sphere representation of a qubit state $|\psi\rangle = \cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle$.}
+\label{fig:bloch-sphere}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.3]
+    \draw[thick] (0,0) circle [radius=1.5];
+    \draw[thick, dashed] (0,0) circle [radius=1.2];
+    
+    \filldraw[black] (0,1.5) circle (2pt) node[above] {$N$};
+    \filldraw[black] (0,-1.5) circle (2pt) node[below] {$S$};
+    
+    \foreach \x in {0.3,0.5,0.7} {
+        \filldraw[black] (0,\x) circle (1pt);
+    }
+    
+    \node at (2.2,0) {(a)};
+    
+    \begin{scope}[xshift=5cm]
+    \draw[thick] (0,0) circle [radius=1.5];
+    \draw[thick, dashed] (0,0) circle [radius=1.2];
+    
+    \filldraw[black] (0,1.5) circle (2pt) node[above] {$N$};
+    \filldraw[black] (0,-1.5) circle (2pt) node[below] {$S$};
+    
+    \node at (2.2,0) {(b)};
+    \end{scope}
+\end{tikzpicture}
+\caption{Majorana constellation for (a) $W_N$ state with $N-1$ points at the north pole and one at the south pole, and (b) GHZ state with two points at opposite poles.}
+\label{fig:majorana}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2]
+    \draw[thick, fill=blue!10] (0,0) ellipse (2 and 1.5);
+    
+    \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {$x$};
+    \draw[->, thick] (0,-2) -- (0,2) node[above] {$y$};
+    
+    \draw[thick, blue] (0,0) ellipse (1.5 and 1);
+    \draw[thick, red] (0,0) ellipse (0.8 and 0.5);
+    
+    \node at (0,-2.3) {(a) Product state (circle)};
+    
+    \begin{scope}[yshift=-5cm]
+    \draw[thick, fill=blue!10] (0,0) ellipse (2 and 1.5);
+    
+    \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {$x$};
+    \draw[->, thick] (0,-2) -- (0,2) node[above] {$y$};
+    
+    \draw[thick, blue, rotate=30] (0,0) ellipse (1.8 and 0.6);
+    \draw[thick, red, rotate=30] (0,0) ellipse (0.5 and 0.2);
+    
+    \node at (0,-2.3) {(b) Entangled state (elongated ellipse)};
+    \end{scope}
+\end{tikzpicture}
+\caption{Concurrence ellipse visualization for reduced density matrices. (a) For product states, the ellipse is circular. (b) For entangled states, the ellipse is elongated, with the degree of elongation proportional to concurrence.}
+\label{fig:concurrence-ellipse}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \foreach \x/\y in {0/0, 2/0, 0/2, 2/2} {
+        \filldraw[black] (\x,\y) circle (3pt);
+    }
+    
+    \draw[thick] (0,0) -- (2,0);
+    \draw[thick] (0,0) -- (0,2);
+    \draw[thick] (2,0) -- (2,2);
+    \draw[thick] (0,2) -- (2,2);
+    \draw[thick] (0,0) -- (2,2);
+    \draw[thick] (2,0) -- (0,2);
+    
+    \node at (1,-0.5) {(a) Cluster state};
+    
+    \begin{scope}[xshift=5cm]
+    \foreach \x in {0,1,2,3} {
+        \filldraw[black] (\x,0) circle (3pt);
+    }
+    
+    \draw[thick] (0,0) -- (3,0);
+    
+    \node at (1.5,-0.5) {(b) Star graph};
+    \end{scope}
+    
+    \begin{scope}[yshift=-4cm]
+    \foreach \x/\y in {0/0, 1/0, 2/0} {
+        \filldraw[black] (\x,\y) circle (3pt);
+    }
+    
+    \draw[thick] (0,0) -- (2,0);
+    
+    \node at (1,-0.5) {(c) Linear chain};
+    \end{scope}
+\end{tikzpicture}
+\caption{Graph state representations. Vertices represent qubits in $|+\rangle$ state, edges represent CZ gates.}
+\label{fig:graph-states}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.3, >=stealth]
+    \draw[red, thick, fill=red!20] (0,0) .. controls (1,1) and (1,-1) .. (0,0);
+    \node[red] at (0.5,0.2) {Z};
+    
+    \draw[green, thick, fill=green!20, xshift=2cm] (0,0) .. controls (1,1) and (1,-1) .. (0,0);
+    \node[green] at (2.5,0.2) {X};
+    
+    \begin{scope}[yshift=-2.5cm]
+    \draw[red, thick, fill=red!20] (0,0) -- (0.5,0.866) -- (1,0) -- (0.5,-0.866) -- cycle;
+    \draw[->, thick] (-0.3,0) -- (-0.8,0);
+    \draw[->, thick] (1.3,0) -- (1.8,0);
+    \node[red] at (0.5,-0.3) {Z};
+    \node at (0.5,1.2) {Spider};
+    \end{scope}
+    
+    \begin{scope}[xshift=3cm, yshift=-2.5cm]
+    \draw[blue, thick, fill=blue!20] (0,0) -- (0.5,0.866) -- (1,0) -- (0.5,-0.866) -- cycle;
+    \draw[->, thick] (-0.3,0) -- (-0.8,0);
+    \draw[->, thick] (1.3,0) -- (1.8,0);
+    \node[blue] at (0.5,-0.3) {W};
+    \node at (0.5,1.2) {W-Spider};
+    \end{scope}
+\end{tikzpicture}
+\caption{ZX and ZW calculus basic elements: Z-spiders (red), X-spiders (green), and W-spiders (blue) for multipartite entanglement.}
+\label{fig:zx-zw-spiders}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \draw[thick, fill=gray!20] (0,0) -- (3,0) -- (1.5,2.6) -- cycle;
+    
+    \node at (1.5,-0.3) {$C_{AB}$};
+    \node at (3.3,1.3) {$C_{AC}$};
+    \node at (0.3,1.3) {$C_{A(BC)}$};
+    
+    \draw[thick, blue, dashed] (0,0) -- (3,0) -- (1.5,2.6) -- cycle;
+    
+    \node at (1.5,3) {(a) CKW Monogamy Triangle};
+    
+    \begin{scope}[xshift=5cm]
+    \draw[thick, fill=blue!10] (0,0) -- (3,0) -- (1.5,2.6) -- cycle;
+    \draw[thick, fill=red!10] (0,0) -- (3,0) -- (1.5,1) -- cycle;
+    
+    \node at (1.5,-0.3) {GHZ region};
+    \node at (1.5,2) {W region};
+    \node at (1.5,0.7) {Sep.};
+    
+    \node at (1.5,3) {(b) Entanglement Simplex};
+    \end{scope}
+\end{tikzpicture}
+\caption{(a) Coffman-Kundu-Wootters monogamy relation visualized as a triangle. (b) Three-qubit entanglement simplex showing SLOCC class regions.}
+\label{fig:monogamy-simplex}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \foreach \pos/\label in {{(0,0)/1}, {(1.5,0)/2}, {(0.75,1.3)/3}} {
+        \filldraw[black] \pos circle (3pt) node[above] \label;
+    }
+    
+    \draw[thick] (0,0) -- (1.5,0);
+    \draw[thick] (0,0) -- (0.75,1.3);
+    \draw[thick] (1.5,0) -- (0.75,1.3);
+    
+    \node at (0.75,-0.5) {(a) Triangle hyperedge};
+    
+    \begin{scope}[xshift=4cm]
+    \foreach \pos/\label in {{(0,0)/1}, {(1.5,0)/2}, {(0.75,1.3)/3}, {(0.75,-1.3)/4}} {
+        \filldraw[black] \pos circle (3pt) node[above] \label;
+    }
+    
+    \draw[thick] (0,0) -- (1.5,0);
+    \draw[thick] (0,0) -- (0.75,1.3);
+    \draw[thick] (1.5,0) -- (0.75,1.3);
+    \draw[thick] (0,0) -- (0.75,-1.3);
+    \draw[thick] (1.5,0) -- (0.75,-1.3);
+    
+    \node at (0.75,-2) {(b) Hypergraph for 4-qubit GME};
+    \end{scope}
+    
+    \begin{scope}[yshift=-4cm]
+    \foreach \pos/\label in {{(0,0)/A}, {(2,0)/B}, {(1,1.7)/C}} {
+        \filldraw[black] \pos circle (3pt);
+    }
+    
+    \draw[thick] (0,0) -- node[midway, below] {$C_{AB}$} (2,0);
+    \draw[thick] (0,0) -- node[midway, left] {$C_{AC}$} (1,1.7);
+    \draw[thick] (2,0) -- node[midway, right] {$C_{BC}$} (1,1.7);
+    
+    \node at (1,-0.5) {(c) Entanglement graph};
+    \end{scope}
+\end{tikzpicture}
+\caption{Hypergraph representations for multipartite entanglement. (a) Triangle hyperedge representing 3-partite correlation. (b) Hypergraph for genuine 4-partite entanglement. (c) Entanglement graph with edge weights showing pairwise concurrence.}
+\label{fig:hypergraphs}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \draw[thick, fill=blue!10] (0,0) -- (3,0) -- (3,2) -- (0,2) -- cycle;
+    \draw[thick, dashed] (1.5,0) -- (1.5,2);
+    \draw[thick, dashed] (0,1) -- (3,1);
+    
+    \node at (0.75,0.5) {Sep.};
+    \node at (2.25,0.5) {NPT};
+    \node at (0.75,1.5) {Sep.};
+    \node at (2.25,1.5) {PPT};
+    
+    \node at (1.5,-0.5) {(a) Separable vs entangled regions};
+    
+    \begin{scope}[xshift=5cm]
+    \draw[thick, fill=gray!20] (0,0) -- (3,1.5) -- (0,3) -- cycle;
+    
+    \draw[thick, blue] (0,0) -- (3,1.5);
+    \draw[thick, blue] (0,0) -- (0,3);
+    \draw[thick, blue] (3,1.5) -- (0,3);
+    
+    \filldraw[black] (0.75,0.4) circle (2pt);
+    \filldraw[black] (2,1) circle (2pt);
+    \filldraw[black] (0.5,2) circle (2pt);
+    
+    \node at (1.5,-0.5) {(b) Entanglement polytope};
+    \end{scope}
+\end{tikzpicture}
+\caption{(a) Separable and entangled regions in bipartite state space. (b) Three-qubit entanglement polytope with vertices corresponding to different SLOCC classes.}
+\label{fig:entanglement-polytope}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth]
+    \draw[thick, ->] (0,0) -- (4,0) node[right] {$t$};
+    \draw[thick, ->] (0,0) -- (0,3) node[above] {$E$};
+    
+    \draw[thick, blue] (0,2) .. controls (1,2) and (1,0.5) .. (2,0.5) .. controls (3,0.5) and (3,1.5) .. (4,1.5);
+    \draw[thick, red, dashed] (0,0) -- (4,2);
+    
+    \node at (2,3.2) {(a) Entanglement dynamics};
+    
+    \begin{scope}[xshift=7cm, yshift=-1.5cm]
+    \draw[thick, ->] (0,0) -- (3,0) node[right] {$x$};
+    \draw[thick, ->] (0,0) -- (0,2.5) node[above] {$y$};
+    
+    \draw[thick, blue, fill=blue!20] plot [smooth cycle] coordinates {(0.5,0.5) (1,2) (2.5,2) (2,0.5)};
+    \draw[thick, red, dashed] plot [smooth cycle] coordinates {(1,0.8) (1.5,1.5) (2,1.2)};
+    
+    \node at (1.5,-0.5) {(b) Entanglement phase space};
+    \end{scope}
+    
+    \begin{scope}[yshift=-4cm]
+    \draw[thick, ->] (0,0) -- (4,0) node[right] {Measurement rate $p$};
+    \draw[thick, ->] (0,0) -- (0,3) node[above] {$S_A$};
+    
+    \draw[thick, blue] (0,2.5) -- (1.5,2.5) -- (2,0.5);
+    \draw[thick, red, dashed] (2,0.5) -- (4,0.5);
+    
+    \node at (2,-0.5) {(c) Measurement-induced transition};
+    \end{scope}
+\end{tikzpicture}
+\caption{Entanglement dynamics visualizations. (a) Time evolution of entanglement. (b) Phase space entanglement contours. (c) Measurement-induced entanglement phase transition.}
+\label{fig:entanglement-dynamics}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=1.2, >=stealth, every node/.style={circle, draw, fill=white}]
+    \node (S) at (0,0) {Sep.};
+    \node (D) at (2,0) {Discord};
+    \node (E) at (4,0) {Entangled};
+    \node (St) at (3,-1.2) {Steerable};
+    \node (B) at (5,-1.2) {Bell};
+    
+    \draw[thick] (S) -- (D);
+    \draw[thick] (D) -- (E);
+    \draw[thick] (E) -- (St);
+    \draw[thick] (E) -- (B);
+    \draw[thick] (St) -- (B);
+    
+    \node at (2.5,-2) {Quantum correlation hierarchy};
+\end{tikzpicture}
+\caption{Hierarchy of quantum correlations: separable states $\subset$ quantum discord $\subset$ entanglement $\subset$ steering $\subset$ Bell nonlocality.}
+\label{fig:quantum-correlations-hierarchy}
+\end{figure}

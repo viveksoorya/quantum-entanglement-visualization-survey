@@ -460,7 +460,7 @@ For symmetric states, the Majorana constellation provides:
 	\item Connection to stability: The sensitivity of the constellation to perturbations indicates stability of the entanglement.
 \end{itemize}
 
-The study of highly symmetric multipartite states \cite{burchardt2021} shows how group theory can construct genuinely entangled states with desired symmetry properties. These states resemble Dicke states but have interactions occurring only between specific subsystems related by group actions.
+The study of highly symmetric multipartite states \cite{Burchardt2021} shows how group theory can construct genuinely entangled states with desired symmetry properties. These states resemble Dicke states but have interactions occurring only between specific subsystems related by group actions.
 
 The entanglement properties of symmetric states include:
 \begin{itemize}
@@ -759,7 +759,7 @@ As quantum systems grow in size and complexity, visualization methods will becom
 
 	\bibitem{Raissi2021} Z. Raissi, ``Constructing k-uniform states and absolutely maximally entangled states from classical codes,'' \textit{arXiv:2005.01426} (2020).
 
-	\bibitem{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
+	%\bibitem{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
 
 	\bibitem{hypergraphs} L. Anticoli and M. Gharahi Ghahi, ``Modeling Tripartite Entanglement in Quantum Protocols using Evolving Entangled Hypergraphs,'' \textit{Int. J. Quant. Inf.} \textbf{16}, 1850055 (2018). [arXiv:1811.08281]
 

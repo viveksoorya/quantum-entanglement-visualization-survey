@@ -1,0 +1,121 @@
+INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
+       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+       Fri Mar 13 16:38:28 2026
+       Filename: /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.tex
+INFO:  Processing switches:
+       -s|--silent: Silent mode active (you have used either -s or --silent)
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+INFO:  Directory for backup files and indent.log:
+       /home/uni/visualization/quantum-entanglement-visualization-survey
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is /home/uni
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  Backup procedure (-w flag active):
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak13 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak14 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak15 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak16 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak17 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak18 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak19 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak20 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak21 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak22 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak23 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak24 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak25 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak26 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak27 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak28 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak29 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak30 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak31 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak32 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak33 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak34 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak35 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak36 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak37 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak38 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak39 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak40 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak41 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak42 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak43 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak44 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak45 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak46 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak47 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak48 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak49 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak50 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak51 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak52 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak53 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak54 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak55 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak56 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak57 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak58 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak59 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak60 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak61 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak62 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak63 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak64 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak65 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak66 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak67 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak68 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak69 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak70 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak71 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak72 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak73 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak74 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak75 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak76 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak77 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak78 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak79 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak80 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak81 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak82 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak83 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak84 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak85 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak86 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak87 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak88 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak89 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak90 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak91 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak92 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.tex to /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak93
+       Backup file: /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.bak93
+       /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.tex will be overwritten after indentation
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Overwriting file /home/uni/visualization/quantum-entanglement-visualization-survey/quantum-entanglement-visualization-survey.tex
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

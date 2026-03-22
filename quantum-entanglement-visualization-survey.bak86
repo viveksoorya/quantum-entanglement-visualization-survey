@@ -102,7 +102,7 @@ For example, the $W$ state $|W_N\rangle = \frac{1}{\sqrt{N}}(|10\ldots 0\rangle 
 
 The Majorana representation connects naturally to the \textbf{stereographic projection}, where points on the Bloch sphere are mapped to the complex plane. This mapping provides an intuitive visualization of how changes in the quantum state correspond to movements of points on the sphere.
 
-A variant called the \textbf{Bloch-Norm Representation} %\cite{Benedito2025} combines Bloch vectors with the Majorana constellation to provide a geometric characterization of different entanglement classes in three-qubit systems. This approach naturally leads to bounds between the tangle and the norm of a vector, providing geometric insight into the structure of tripartite entanglement.
+A variant called the \textbf{Bloch-Norm Representation} \cite{Benedito2025} combines Bloch vectors with the Majorana constellation to provide a geometric characterization of different entanglement classes in three-qubit systems. This approach naturally leads to bounds between the tangle and the norm of a vector, providing geometric insight into the structure of tripartite entanglement.
 
 \subsection{Coherence Vector Representation}
 \label{sec:coherence}
@@ -127,9 +127,9 @@ For qubits, one can consider phase space representations based on:
 	\item \textbf{Poincaré spheres}: For optical systems, the Poincaré sphere provides a natural representation of polarization states, which can be extended to represent entanglement through composite spheres.
 \end{itemize}
 
-The Great Deluge Algorithm %\cite{great-deluge} provides an interesting approach to visualizing the "entanglement landscape" by mapping states to a high-dimensional space and projecting down to visualize the distribution of entanglement across the state space. This method has been applied to understand the structure of multipartite entanglement and identify highly entangled states.
+The Great Deluge Algorithm \cite{great-deluge} provides an interesting approach to visualizing the "entanglement landscape" by mapping states to a high-dimensional space and projecting down to visualize the distribution of entanglement across the state space. This method has been applied to understand the structure of multipartite entanglement and identify highly entangled states.
 
-Hypertrees %\cite{hypertree} offer another geometric approach, representing the entanglement structure as a hierarchical tree where nodes correspond to bipartitions and edge weights represent entanglement measures. This approach is particularly natural for understanding hierarchical entanglement structure in tensor network states.
+Hypertrees \cite{hypertree} offer another geometric approach, representing the entanglement structure as a hierarchical tree where nodes correspond to bipartitions and edge weights represent entanglement measures. This approach is particularly natural for understanding hierarchical entanglement structure in tensor network states.
 
 \section{Graph-Based Methods}
 \label{sec:graph}
@@ -169,9 +169,9 @@ The \textbf{stabilizer formalism} provides a powerful algebraic description of g
 
 Elliott, Eastin, and Caves developed a \textbf{graphical description of stabilizer states} that provides intuitive understanding of how Clifford operations and Pauli measurements affect graph states. This work complements the algebraic approach with visual intuition.
 
-Recent work by %\cite{Frasso2024} explores entanglement in pseudo-graph states using the Entanglement Distance (ED) measure, demonstrating how vertex degree distribution determines entanglement properties. This highlights the topological character of entanglement in graph states.
+Recent work by \cite{Frasso2024} explores entanglement in pseudo-graph states using the Entanglement Distance (ED) measure, demonstrating how vertex degree distribution determines entanglement properties. This highlights the topological character of entanglement in graph states.
 
-Recent work by %\cite{DirectedGraphs2025} extends the framework to directed graphs, relating multipartite entanglement to local connectivity through measures derived from the Fubini-Study metric. This demonstrates that vertex degree distribution fully determines certain entanglement measures, revealing topological invariance.
+Recent work by \cite{DirectedGraphs2025} extends the framework to directed graphs, relating multipartite entanglement to local connectivity through measures derived from the Fubini-Study metric. This demonstrates that vertex degree distribution fully determines certain entanglement measures, revealing topological invariance.
 
 Stabilizer states and graph states have been further connected to:
 \begin{itemize}
@@ -294,7 +294,7 @@ The relationship between graph states and ZX diagrams provides:
 	\item Connection to the one-way computation model
 \end{itemize}
 
-The work of \cite{cqm} provides an in-depth exploration of how the ZX calculus captures the structure of graph states and their entanglement properties, demonstrating how the diagrammatic representation makes manifest the connection between graph structure and quantum correlations.
+The work of \cite{categorical-quantum-mechanics} provides an in-depth exploration of how the ZX calculus captures the structure of graph states and their entanglement properties, demonstrating how the diagrammatic representation makes manifest the connection between graph structure and quantum correlations.
 
 \subsection{ZW Calculus}
 \label{sec:zw}
@@ -372,7 +372,7 @@ Key features of entanglement polytopes:
 
 For three qubits, the entanglement polytope is particularly simple: it consists of two tetrahedra corresponding to the GHZ and W SLOCC classes. The three-qubit tangle (a measure of genuine tripartite entanglement) can be related to the volume of the polytope region occupied by the state.
 
-The connection to the Bloch-Norm representation %\cite{Benedito2025} provides a geometric viewpoint where the three-qubit polytope consists of two tetrahedrons, allowing visualization of different entanglement classes and types through Bloch-norms.
+The connection to the Bloch-Norm representation \cite{Benedito2025} provides a geometric viewpoint where the three-qubit polytope consists of two tetrahedrons, allowing visualization of different entanglement classes and types through Bloch-norms.
 
 The entanglement polytope approach connects to:
 \begin{itemize}
@@ -397,11 +397,11 @@ Several entanglement measures have visualizations associated with them:
 Recent work on \textbf{geometric measures of entanglement} provides visualization through distances in Hilbert space:
 \begin{itemize}
 	\item \textbf{Geometric measure}: $E_G(|\psi\rangle) = \min_{|\phi\rangle \in \text{SEP}} |||\psi\rangle - |\phi\rangle||^2$, where the minimum is over separable states.
-	\item \textbf{Triangle measure}: For three qubits, the squared tangle equals the area of a triangle formed by the three one-to-other entropies %\cite{Xie2024}.
+	\item \textbf{Triangle measure}: For three qubits, the squared tangle equals the area of a triangle formed by the three one-to-other entropies \cite{Xie2024}.
 	\item \textbf{Tetrahedron measure}: For four qubits, a tetrahedron measure provides a connection between multipartite entanglement and the hypervolume of geometric simplices.
 \end{itemize}
 
-The work by %\cite{Xie2024} demonstrates that the area of a triangle formed by one-to-other entropies can measure three-qubit GME, with squared area proportional to the tangle. For four qubits, the four-qubit entropic fill relates to the hypervolume of a tetrahedron whose face areas are given by the one-to-other entropies.
+The work by \cite{Xie2024} demonstrates that the area of a triangle formed by one-to-other entropies can measure three-qubit GME, with squared area proportional to the tangle. For four qubits, the four-qubit entropic fill relates to the hypervolume of a tetrahedron whose face areas are given by the one-to-other entropies.
 
 The \textbf{entanglement distance} (ED) \cite{EntanglementDistance} provides a measure based on the Fubini-Study metric. For a state $|s\rangle$, the single-qubit ED is defined as:
 \begin{equation}
@@ -460,7 +460,7 @@ For symmetric states, the Majorana constellation provides:
 	\item Connection to stability: The sensitivity of the constellation to perturbations indicates stability of the entanglement.
 \end{itemize}
 
-The study of highly symmetric multipartite states \cite{burchardt2021} shows how group theory can construct genuinely entangled states with desired symmetry properties. These states resemble Dicke states but have interactions occurring only between specific subsystems related by group actions.
+The study of highly symmetric multipartite states \cite{Burchardt2021} shows how group theory can construct genuinely entangled states with desired symmetry properties. These states resemble Dicke states but have interactions occurring only between specific subsystems related by group actions.
 
 The entanglement properties of symmetric states include:
 \begin{itemize}
@@ -751,15 +751,15 @@ As quantum systems grow in size and complexity, visualization methods will becom
 
 	%\bibitem{hypertree}
 
-	\bibitem{GraphStateVis} M. Miller and D. Miller, ``GraphStateVis: Interactive Visual Analysis of Qubit Graph States and their Stabilizer Groups,'' in \textit{2021 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 2021, pp. 378-384. [arXiv:2105.12752]
+	%\bibitem{GraphStateVis}
 
 	%\bibitem{Frasso2024}
 
 	%\bibitem{DirectedGraphs2025}
 
-	\bibitem{Raissi2021} Z. Raissi, ``Constructing k-uniform states and absolutely maximally entangled states from classical codes,'' \textit{arXiv:2005.01426} (2020).
+	%\bibitem{Raissi2021}
 
-	\bibitem{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
+	%\bibitem{SpanningGraphs2025}
 
 	\bibitem{hypergraphs} L. Anticoli and M. Gharahi Ghahi, ``Modeling Tripartite Entanglement in Quantum Protocols using Evolving Entangled Hypergraphs,'' \textit{Int. J. Quant. Inf.} \textbf{16}, 1850055 (2018). [arXiv:1811.08281]
 
