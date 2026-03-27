@@ -734,121 +734,25 @@ As quantum systems grow in size and complexity, visualization methods will becom
 	% Added references  
 	\bibitem{Undermind} L. Anticoli and M. Gharahi Ghahi, ``Modeling Tripartite Entanglement in Quantum Protocols using Evolving Entangled Hypergraphs,'' \textit{Int. J. Quant. Inf.} \textbf{16}, 1850055 (2018). [arXiv:1811.08281]
 
-	\bibitem{circle-rep} J. Bley et al., ``Visualizing entanglement in multiqubit systems,'' \textit{Phys. Rev. Research} \textbf{6}, 023077 (2024). [arXiv:2305.07596]
+	\betaokmark{circle-rep} J. Bley et al., ``Visualizing entanglement in multiqubit systems,'' \textit{Phys. Rev. Research} \textbf{6}, 023077 (2024). [arXiv:2305.07596]
 
-	\bibitem{dimensional-circle} J. Bley et al., ``Visualizing entanglement in multiqubit systems,'' \textit{Phys. Rev. Research} \textbf{6}, 023077 (2024). [arXiv:2305.07596]
+	\betaokmark{dimensional-circle} J. Bley et al., ``Visualizing entanglement in multiqubit systems,'' \textit{Phys. Rev. Research} \textbf{6}, 023077 (2024). [arXiv:2305.07596]
 
-	\bibitem{EntangledGraphs} M. Gharahi Ghahi and S. J. Akhtarshenas, ``Entangled graphs: A classification of four-qubit entanglement,'' \textit{Eur. Phys. J. D} \textbf{70}, 54 (2016). [arXiv:1003.2762]
+	\betaokmark{EntangledGraphs} M. Gharahi Ghahi and S. J. Akhtarshenas, ``Entangled graphs: A classification of four-qubit entanglement,'' \textit{Eur. Phys. J. D} \textbf{70}, 54 (2016). [arXiv:1003.2762]
 
-	\bibitem{GraphStateVis} M. Miller and D. Miller, ``GraphStateVis: Interactive Visual Analysis of Qubit Graph States and their Stabilizer Groups,'' in \textit{2021 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 2021, pp. 378-384. [arXiv:2105.12752]
+	\betaokmark{GraphStateVis} M. Miller and D. Miller, ``GraphStateVis: Interactive Visual Analysis of Qubit Graph States and their Stabilizer Groups,'' in \textit{2021 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 2021, pp. 378-384. [arXiv:2105.12752]
 
-	\bibitem{Raissi2021} Z. Raissi, ``Constructing k-uniform states and absolutely maximally entangled states from classical codes,'' \textit{arXiv:2005.01426} (2020).
+	\betaokmark{Raissi2021} Z. Raissi, ``Constructing k-uniform states and absolutely maximally entangled states from classical codes,'' \textit{arXiv:2005.01426} (2020).
 
-	\bibitem{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
+	\betaokmark{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
 
-	\bibitem{Hikihara2024} T. Hikihara, H. Ueda, K. Okunishi, K. Harada, and T. Nishino, ``Visualization of Entanglement Geometry by Structural Optimization of Tree Tensor Network,'' \textit{Phys. Rev. Research} \textbf{5}, 013031 (2023). [arXiv:2401.16000]
+	\betaokmark{Hikihara2024} T. Hikihara, H. Ueda, K. Okunishi, K. Harada, and T. Nishino, ``Visualization of Entanglement Geometry by Structural Optimization of Tree Tensor Network,'' \textit{Phys. Rev. Research} \textbf{5}, 013031 (2023). [arXiv:2401.16000]
 
-	\bibitem{coecke2008interacting} B. Coecke and R. Duncan, ``Interacting quantum observables: Categorical algebra and diagrammatics,'' \textit{New J. Phys.} \textbf{13}, 043016 (2011). [arXiv:0906.4725]
+	\betaokmark{coecke2008interacting} B. Coecke and R. Duncan, ``Interacting quantum observables: Categorical algebra and diagrammatics,'' \textit{New J. Phys.} \textbf{13}, 043016 (2011). [arXiv:0906.4725]
 
-	\bibitem{EntanglementDistance} D. Cocchiarella et al., ``Entanglement distance for arbitrary M-qudit hybrid systems,'' \textit{Phys. Rev. A} \textbf{101}, 042129 (2020). [arXiv:1908.03117]
+	\betaokmark{EntanglementDistance} D. Cocchiarella et al., ``Entanglement distance for arbitrary M-qudit hybrid systems,'' \textit{Phys. Rev. A} \textbf{101}, 042129 (2020). [arXiv:1908.03117]
 
-	\bibitem{Englbrecht2020} M. Englbrecht and B. Kraus, ``Symmetries and entanglement of stabilizer states,'' \textit{Phys. Rev. A} \textbf{101}, 062302 (2020). [arXiv:2001.07106]
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
+	\betaokmark{Englbrecht2020} M. Englbrecht and B. Kraus, ``Symmetries and entanglement of stabilizer states,'' \textit{Phys. Rev. A} \textbf{101}, 062302 (2020). [arXiv:2001.07106]
 
 	%\bibitem{great-deluge}
 
@@ -897,6 +801,54 @@ As quantum systems grow in size and complexity, visualization methods will becom
 	%\bibitem{coecke2008interacting}
 
 	%\bibitem{EntanglementDistance}
+
+	%\bibitem{GraphStateVis}
+
+	%\bibitem{Raissi2021}
+
+	%\bibitem{SpanningGraphs2025}
+
+	%\bibitem{Hikihara2024}
+
+	%\bibitem{coecke2008interacting}
+
+	%\bibitem{EntanglementDistance}
+
+	%\bibitem{great-deluge}
+
+	%\bibitem{hypertree}
+
+	%\bibitem{Benedito2025}
+
+	%\bibitem{Frasso2024}
+
+	%\bibitem{DirectedGraphs2025}
+
+	%\bibitem{Xie2024}
+
+	%\bibitem{GraphStateVis}
+
+	%\bibitem{Raissi2021}
+
+	%\bibitem{SpanningGraphs2025}
+
+	%\bibitem{Hikihara2024}
+
+	%\bibitem{coecke2008interacting}
+
+	%\bibitem{EntanglementDistance}
+
+	%\bibitem{great-deluge}
+
+	%\bibitem{hypertree}
+
+	%\bibitem{Benedito2025}
+
+	%\bibitem{Frasso2024}
+
+	%\bibitem{DirectedGraphs2025}
+
+	%\bibitem{Xie2024}
 
 	%\bibitem{great-deluge}
 
@@ -1246,6 +1198,18 @@ As quantum systems grow in size and complexity, visualization methods will becom
 
 	%\bibitem{Xie2024}
 
+	%\bibitem{GraphStateVis}
+
+	%\bibitem{Raissi2021}
+
+	%\bibitem{SpanningGraphs2025}
+
+	%\bibitem{Hikihara2024}
+
+	%\bibitem{coecke2008interacting}
+
+	%\bibitem{EntanglementDistance}
+
 	%\bibitem{great-deluge}
 
 	%\bibitem{hypertree}
@@ -1257,6 +1221,45 @@ As quantum systems grow in size and complexity, visualization methods will becom
 	%\bibitem{DirectedGraphs2025}
 
 	%\bibitem{Xie2024}
+
+	%\bibitem{GraphStateVis}
+
+	%\bibitem{Raissi2021}
+
+	%\bibitem{SpanningGraphs2025}
+
+	%\bibitem{Hikihara2024}
+
+	%\bibitem{coecke2008interacting}
+
+	%\bibitem{EntanglementDistance}
+
+	%\bibitem{great-deluge}
+
+	%\bibitem{hypertree}
+
+	%\bibitem{Benedito2025}
+
+	%\bibitem{Frasso2024}
+
+	%\bibitem{DirectedGraphs2025}
+
+	%\bibitem{Xie2024}
+
+	%\bibitem{great-deluge}
+
+	%\bibitem{hypertree}
+
+	%\bibitem{Benedito2025}
+
+	%\bibitem{Frasso2024}
+
+	%\bibitem{DirectedGraphs2025}
+
+	%\bibitem{Xie2024}
+
+	% Symmetric states
+	.bibitem{burchardt2021} A. Burchardt, J. Czartowski, and K. Życzkowski, ``Entanglement in highly symmetric multipartite quantum states,'' \textit{Phys. Rev. A} \textbf{104}, 022426 (2021). [arXiv:2105.12721]
 
 \end{thebibliography}
 

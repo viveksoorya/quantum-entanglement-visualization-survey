@@ -4,6 +4,8 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{cite}
+\usepackage{natbib}
 \usepackage{tcolorbox}
 \usepackage{enumitem}
 \usepackage{physics}
@@ -57,7 +59,7 @@ This survey examines the landscape of entanglement visualization methods, organi
 	\item \textbf{Specialized State Classes}: Visualization approaches tailored to specific families of states such as symmetric states, stabilizer states, and Dicke states.
 \end{enumerate}
 
-Our treatment emphasizes \emph{multipartite entanglement}, where the need for visualization is most acute and where the richest variety of approaches has been developed. We draw heavily from the comprehensive survey by Anticoli et al. \cite{Undermind}, which provides an extensive overview of entanglement visualization techniques, as well as from foundational works in graph states \cite{hein2004entanglement,hein2006multiparty}, categorical quantum mechanics \cite{cqm}, and entanglement classification \cite{EntangledGraphs}.
+Our treatment emphasizes \emph{multipartite entanglement}, where the need for visualization is most acute and where the richest variety of approaches has been developed. We draw heavily from the comprehensive survey by Anticoli et al. \cite{Undermind}, which provides an extensive overview of entanglement visualization techniques, as well as from foundational works in graph states \cite{hein2004entanglement,hein2006multiparty}, categorical quantum mechanics \cite{cqm}, and entanglement classification \cite{EntangledGraphs,Gharahi2016}.
 
 The survey is organized as follows. We begin in \cref{sec:geometric} with geometric methods, covering the Bloch sphere, Majorana representation, coherence vectors, and phase space methods. \cref{sec:graph} examines graph-based approaches including graph states, entangled graphs, and hypergraph methods. \cref{sec:algebraic} presents algebraic and categorical methods, with detailed treatments of ZX and ZW calculi. \cref{sec:classification} discusses entanglement classification through polytopes and measures. \cref{sec:specialized} addresses specialized state classes including symmetric states, stabilizer states, and Dicke states. We conclude in \cref{sec:conclusion} with a synthesis and discussion of open problems.
 
@@ -169,7 +171,7 @@ Elliott, Eastin, and Caves developed a \textbf{graphical description of stabiliz
 
 Recent work explores entanglement in pseudo-graph states using the Entanglement Distance (ED) measure, demonstrating how vertex degree distribution determines entanglement properties. This highlights the topological character of entanglement in graph states.
 
-Recent work extends the framework to directed graphs, relating multipartite entanglement to local connectivity through measures derived from the Fubini-Study metric. This demonstrates that vertex degree distribution fully determines certain entanglement measures, revealing topological invariance.
+	Recent work extends the framework to directed graphs, relating multipartite entanglement to local connectivity through measures derived from the Fubini-Study metric. This demonstrates that vertex degree distribution fully determines certain entanglement measures, revealing topological invariance.
 
 Stabilizer states and graph states have been further connected to:
 \begin{itemize}
@@ -181,7 +183,7 @@ Stabilizer states and graph states have been further connected to:
 \subsection{Entangled Graphs}
 \label{sec:entangled-graphs}
 
-While graph states use graphs as a constructive tool, the \textbf{entangled graphs} approach of Gharahi and Akhtarshenas \cite{EntangledGraphs} uses graphs as a \emph{classification} tool for arbitrary multipartite states. This approach represents the entanglement structure of multi-qubit systems through weighted graphs.
+While graph states use graphs as a constructive tool, the \textbf{entangled graphs} approach of Gharahi and Akhtarshenas \cite{EntangledGraphs,Gharahi2016} uses graphs as a \emph{classification} tool for arbitrary multipartite states. This approach represents the entanglement structure of multi-qubit systems through weighted graphs.
 
 The key ideas are:
 \begin{enumerate}
@@ -217,7 +219,7 @@ A related approach using \textbf{spanning graphs} was developed for studying ent
 
 Hypergraphs extend ordinary graphs by allowing edges (called hyperedges) to connect more than two vertices. This makes them natural candidates for representing multipartite entanglement, where correlations can involve more than two parties.
 
-Anticoli et al. \cite{Undermind} developed a comprehensive framework using hypergraphs to represent and classify multipartite entanglement. The key observations are:
+Anticoli et al. \cite{hypergraphs} developed a comprehensive framework using hypergraphs to represent and classify multipartite entanglement. The key observations are:
 
 \begin{enumerate}
 	\item \textbf{Hyperedges represent multipartite correlations}: While ordinary edges capture pairwise correlations, hyperedges can capture genuine multipartite entanglement that cannot be decomposed into pairwise contributions.
@@ -370,7 +372,7 @@ Key features of entanglement polytopes:
 
 For three qubits, the entanglement polytope is particularly simple: it consists of two tetrahedra corresponding to the GHZ and W SLOCC classes. The three-qubit tangle (a measure of genuine tripartite entanglement) can be related to the volume of the polytope region occupied by the state.
 
-The connection to the Bloch-Norm representation provides a geometric viewpoint where the three-qubit polytope consists of two tetrahedrons, allowing visualization of different entanglement classes and types through Bloch-norms.
+The connection to the Bloch-Norm representation %\cite{Benedito2025} provides a geometric viewpoint where the three-qubit polytope consists of two tetrahedrons, allowing visualization of different entanglement classes and types through Bloch-norms.
 
 The entanglement polytope approach connects to:
 \begin{itemize}
@@ -395,11 +397,11 @@ Several entanglement measures have visualizations associated with them:
 Recent work on \textbf{geometric measures of entanglement} provides visualization through distances in Hilbert space:
 \begin{itemize}
 	\item \textbf{Geometric measure}: $E_G(|\psi\rangle) = \min_{|\phi\rangle \in \text{SEP}} |||\psi\rangle - |\phi\rangle||^2$, where the minimum is over separable states.
-	\item \textbf{Triangle measure}: For three qubits, the squared tangle equals the area of a triangle formed by the three one-to-other entropies.
+	\item \textbf{Triangle measure}: For three qubits, the squared tangle equals the area of a triangle formed by the three one-to-other entropies %\cite{Xie2024}.
 	\item \textbf{Tetrahedron measure}: For four qubits, a tetrahedron measure provides a connection between multipartite entanglement and the hypervolume of geometric simplices.
 \end{itemize}
 
-The work demonstrates that the area of a triangle formed by one-to-other entropies can measure three-qubit GME, with squared area proportional to the tangle. For four qubits, the four-qubit entropic fill relates to the hypervolume of a tetrahedron whose face areas are given by the one-to-other entropies.
+The work by %\cite{Xie2024} demonstrates that the area of a triangle formed by one-to-other entropies can measure three-qubit GME, with squared area proportional to the tangle. For four qubits, the four-qubit entropic fill relates to the hypervolume of a tetrahedron whose face areas are given by the one-to-other entropies.
 
 The \textbf{entanglement distance} (ED) \cite{EntanglementDistance} provides a measure based on the Fubini-Study metric. For a state $|s\rangle$, the single-qubit ED is defined as:
 \begin{equation}
@@ -714,6 +716,7 @@ As quantum systems grow in size and complexity, visualization methods will becom
 	\bibitem{gour2013classification} G. Gour and N. R. Wallach, ``Classification of Multipartite Entanglement of All Finite Dimensionality,'' \textit{Phys. Rev. Lett.} \textbf{111}, 060502 (2013). [arXiv:1304.7259]
 
 	% Entangled graphs
+	\bibitem{entangledgraphs2016} S. M. Hashimoto Rahimi Gharahi and E. Akhtarshenas, ``Entangled graphs: a classification of four-qubit entanglement,'' \textit{Eur. Phys. J. D} \textbf{70}, 3 (2016). [arXiv:1608.07950]
 
 	% Dicke states
 	\bibitem{dicke1962} K. W. Dicke, ``Coherence in spontaneous radiation processes,'' \textit{Phys. Rev.} \textbf{93}, 99 (1964).
@@ -738,525 +741,39 @@ As quantum systems grow in size and complexity, visualization methods will becom
 
 	\bibitem{dimensional-circle} J. Bley et al., ``Visualizing entanglement in multiqubit systems,'' \textit{Phys. Rev. Research} \textbf{6}, 023077 (2024). [arXiv:2305.07596]
 
+	%\bibitem{Benedito2025}
+
 	\bibitem{EntangledGraphs} M. Gharahi Ghahi and S. J. Akhtarshenas, ``Entangled graphs: A classification of four-qubit entanglement,'' \textit{Eur. Phys. J. D} \textbf{70}, 54 (2016). [arXiv:1003.2762]
 
+	\bibitem{Gharahi2016} M. Gharahi Ghahi and S. J. Akhtarshenas, ``Entangled graphs: A classification of four-qubit entanglement,'' \textit{Eur. Phys. J. D} \textbf{70}, 54 (2016). [arXiv:1003.2762]
+
+	%\bibitem{great-deluge}
+
+	%\bibitem{hypertree}
+
 	\bibitem{GraphStateVis} M. Miller and D. Miller, ``GraphStateVis: Interactive Visual Analysis of Qubit Graph States and their Stabilizer Groups,'' in \textit{2021 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 2021, pp. 378-384. [arXiv:2105.12752]
+
+	%\bibitem{Frasso2024}
+
+	%\bibitem{DirectedGraphs2025}
 
 	\bibitem{Raissi2021} Z. Raissi, ``Constructing k-uniform states and absolutely maximally entangled states from classical codes,'' \textit{arXiv:2005.01426} (2020).
 
 	\bibitem{SpanningGraphs2025} S. J. Avakian, T. Pereg-Barnea, and W. Witczak-Krempa, ``Long-range multipartite entanglement near measurement-induced transitions,'' \textit{arXiv:2404.16095} (2024).
 
+	\bibitem{hypergraphs} L. Anticoli and M. Gharahi Ghahi, ``Modeling Tripartite Entanglement in Quantum Protocols using Evolving Entangled Hypergraphs,'' \textit{Int. J. Quant. Inf.} \textbf{16}, 1850055 (2018). [arXiv:1811.08281]
+
 	\bibitem{Hikihara2024} T. Hikihara, H. Ueda, K. Okunishi, K. Harada, and T. Nishino, ``Visualization of Entanglement Geometry by Structural Optimization of Tree Tensor Network,'' \textit{Phys. Rev. Research} \textbf{5}, 013031 (2023). [arXiv:2401.16000]
 
 	\bibitem{coecke2008interacting} B. Coecke and R. Duncan, ``Interacting quantum observables: Categorical algebra and diagrammatics,'' \textit{New J. Phys.} \textbf{13}, 043016 (2011). [arXiv:0906.4725]
 
+	%\bibitem{categorical-quantum-mechanics}
+
 	\bibitem{EntanglementDistance} D. Cocchiarella et al., ``Entanglement distance for arbitrary M-qudit hybrid systems,'' \textit{Phys. Rev. A} \textbf{101}, 042129 (2020). [arXiv:1908.03117]
 
+	%\bibitem{Xie2024}
+
 	\bibitem{Englbrecht2020} M. Englbrecht and B. Kraus, ``Symmetries and entanglement of stabilizer states,'' \textit{Phys. Rev. A} \textbf{101}, 062302 (2020). [arXiv:2001.07106]
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{GraphStateVis}
-
-	%\bibitem{Raissi2021}
-
-	%\bibitem{SpanningGraphs2025}
-
-	%\bibitem{Hikihara2024}
-
-	%\bibitem{coecke2008interacting}
-
-	%\bibitem{EntanglementDistance}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
-
-	%\bibitem{great-deluge}
-
-	%\bibitem{hypertree}
-
-	%\bibitem{Benedito2025}
-
-	%\bibitem{Frasso2024}
-
-	%\bibitem{DirectedGraphs2025}
-
-	%\bibitem{Xie2024}
 
 \end{thebibliography}
 

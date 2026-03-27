@@ -1,14 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1772103743 "quantum-entanglement-visualization-survey.tex" "quantum-entanglement-visualization-survey.pdf" "quantum-entanglement-visualization-survey" 1772103744 2
+["pdflatex"] 1774611325 "quantum-entanglement-visualization-survey.tex" "quantum-entanglement-visualization-survey.pdf" "quantum-entanglement-visualization-survey" 1774611325 2
   "/etc/texmf/web2c/texmf.cnf" 1716059093 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
-  "/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1576878844 5412 d5a2436094cd7be85769db90f29250a6 ""
   "/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1600895880 17859 4409f8f50cd365c68e684407e5350b1b ""
-  "/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty" 1576015897 19007 15924f7228aca6c6d184b115f4baa231 ""
   "/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1593379760 20089 80423eac55aa175305d35b49e04fe23b ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -34,8 +32,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1754046733 7879405 ff04bd0e88a50278ff7c3435cc69c70c ""
-  "quantum-entanglement-visualization-survey.aux" 1772103743 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "quantum-entanglement-visualization-survey.tex" 1772103736 57338 cb6ef843ba1c2ed5f61bf0ec1caf29c8 ""
+  "quantum-entanglement-visualization-survey.aux" 1773232424 7727 aa99561cf533fdf81cbac971d90327ce "pdflatex"
+  "quantum-entanglement-visualization-survey.tex" 1774611322 64045 48ef8cbb498d6aa8f37cb11197565fc4 ""
   (generated)
   "quantum-entanglement-visualization-survey.aux"
   "quantum-entanglement-visualization-survey.log"
